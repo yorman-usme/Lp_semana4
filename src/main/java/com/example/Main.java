@@ -5,7 +5,8 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-
+        
+        //ACTIVIDAD 1  SEMANA 4
 
         System.out.println("Ingresa el valor de tu cuenta incluido el IVA: ");
         double valorCuenta = scanner.nextDouble();
@@ -27,7 +28,9 @@ public class Main {
         scanner.nextLine();
 
 
-        
+
+
+        //ACTIVIDAD 2  SEMANA 4
 
         System.out.println("Ingrese la distancia de viaje: ");
         double distancia = scanner.nextDouble();
@@ -35,8 +38,8 @@ public class Main {
         System.out.println("Ingrese el tiempo que espera pasar en trafico: ");
         double tiempoEspera = scanner.nextDouble();
 
-        int tarifaBase = 4000;
-        int valorKilometro = 800;
+        int tarifaBase = 4600;
+        int valorKilometro = 1038;
         int valorMinuto = 300;
 
         distancia = distancia * valorKilometro;
@@ -55,6 +58,8 @@ public class Main {
 
 
 
+
+        //Actividad 3  SEMANA 4
 
         System.out.println("Quieres decodificar un mensaje codificado? (si/no): ");
         String confirmar = scanner.nextLine().trim().toLowerCase();
